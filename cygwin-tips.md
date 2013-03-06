@@ -1,3 +1,8 @@
+---
+layout: layout
+title: Cygwin Tips
+---
+
 # Cygwin Tips
 
 On Windows, I like to have a directory called `C:\Projects`
