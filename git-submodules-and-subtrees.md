@@ -1,3 +1,8 @@
+---
+layout: layout
+title: Git Submodules and Subtrees
+---
+
 # Git Submodules and Subtrees
 
 * [Working with Subtree Merge](https://help.github.com/articles/working-with-subtree-merge)
