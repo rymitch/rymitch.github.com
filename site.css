@@ -1,32 +1,29 @@
-/* Non-Retina */
-@media screen and (-webkit-max-device-pixel-ratio: 1) {
-}
-
-/* Retina */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5) {
-}
-
-/* iPhone Portrait */
-@media screen and (max-device-width: 480px) and (orientation:portrait) {
-} 
-
-/* iPhone Landscape */
-@media screen and (max-device-width: 480px) and (orientation:landscape) {
-}
-
-/* iPad Portrait */
-@media screen and (min-device-width: 481px) and (orientation:portrait) {
-}
-
-/* iPad Landscape */
-@media screen and (min-device-width: 481px) and (orientation:landscape) {
-}
-
 body {
   color: #3c3c3c;
   background-color: #ededed;
   font-family: "Palatino Linotype", "Book Antiqua", "URW Palladio L", Palatino, serif;
+  padding: 4px 32px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body {
+    padding: 4px 4px;
+  }
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+a {
+  color: #368dd5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
