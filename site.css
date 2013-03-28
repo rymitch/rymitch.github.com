@@ -26,6 +26,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 body {
-  color: #333333;
+  color: #3c3c3c;
+  background-color: #ededed;
   font-family: "Palatino Linotype", "Book Antiqua", "URW Palladio L", Palatino, serif;
 }
