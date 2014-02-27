@@ -20,7 +20,7 @@ this to `/Projects`. I know of two methods:
 2. Use a mount point.
 
    This seems to be the most seamless way to integrate with
-   the rest of the Cygwin envrionment. Edit `/etc/fstab` and
+   the rest of the Cygwin environment. Edit `/etc/fstab` and
    add the following line:
 
          C:/Projects /Projects ntfs binary,posix=0 0 0
